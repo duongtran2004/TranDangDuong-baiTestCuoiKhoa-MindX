@@ -1,3 +1,5 @@
+<!-- Lần sau rút kinh nghiệm, nếu có nhiều component giống nhau, làm xong 1 cái chạy
+ngon lành đã rồi duplicate ra sau -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,6 +8,13 @@
     <title>Bài 3</title>
     <!-- CSS file -->
     <link rel="stylesheet" href="bai3.css" />
+    <!-- Google Font Library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome library  -->
     <link
       rel="stylesheet"
@@ -25,6 +34,103 @@
     <script src="bai3.js"></script>
   </head>
   <body>
+    <h1 class="tittle">Users</h1>
+    <header>
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+          class="icon"
+          placeholder="     Search users"
+          type="text"
+          size="40"
+        />
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href=""> </a>Reputation</li>
+          <li style="white-space: nowrap"><a href=""></a> New users</li>
+          <li><a href=""></a>Voters</li>
+          <li><a href=""></a>Editors</li>
+          <li><a href=""></a>Moderators</li>
+        </ul>
+      </div>
+    </header>
+    <section class="profile-list">
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/avatar1.png" />
+        </div>
+        <div class="bio">
+          <h1>Lelah Nichols</h1>
+          <h3>Troy, MI</h3>
+          <button class="button">clothes</button>
+          <button class="button">stem</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/avatar2.png" />
+        </div>
+        <div class="bio">
+          <h1>Jesus Weiss</h1>
+          <h3>Fort Worth, TX</h3>
+          <button class="button">headset</button>
+          <button class="button">gadget</button>
+          <button class="button">speed</button>
+          <button class="button">winter</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/avatar3.png" />
+        </div>
+        <div class="bio">
+          <h1>Aunnie Rice</h1>
+          <h3>Austin, TX</h3>
+          <button class="button">read</button>
+          <button class="button">mountain</button>
+          <button class="button">trip</button>
+          <button class="button">earth</button>
+          <button class="button">nature</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/avatar4.png" />
+        </div>
+        <div class="bio">
+          <h1>Robert Brower</h1>
+          <h3>Cicinati, OH</h3>
+          <button class="button">Maintainance</button>
+          <button class="button">gears</button>
+          <button class="button">frames</button>
+          <button class="button">repair</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/avatar5.png" />
+        </div>
+        <div class="bio">
+          <h1>Amy Campbell</h1>
+          <h3>Warrior, AL</h3>
+          <button class="button">music</button>
+          <button class="button">disks</button>
+        </div>
+      </div>
+      <div class="profile">
+        <div class="avatar">
+          <img src="assets/avatar6.png" />
+        </div>
+        <div class="bio">
+          <h1>Anthony S.Morin</h1>
+          <h3>Lyndhurst, NJ</h3>
+          <button class="button">vintage</button>
+          <button class="button">electric</button>
+        </div>
+      </div>
+    </section>
     <!-- Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
